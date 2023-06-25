@@ -29,7 +29,7 @@
 
 	* No!! Tiers and layers in software architecture have different meanings and cannot be used interchangeably.
 
-## Jeyhun Questions
+## Person1 Questions
 
 * What are Single Responsibility Principle and Separation Of Concerns?
 	* Single responsibility principle - means that giving one dedicated responsibility to a component and letting it execute flawlessly.
