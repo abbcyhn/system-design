@@ -49,7 +49,7 @@
 	* Graceful degradation: Designing the application to gracefully degrade functionality when certain components or services become unavailable can enhance fault tolerance. It allows the application to continue operating with reduced functionality rather than completely failing.
 
 * Monolithic/MicroServices architecture and 2 tier/3 tier/N tier architectures are different concepts?
-	* Yes, monolithic and microservices architectures are different approaches to building and deploying applications, while 3-tier, 2-tier, or N-tier architectures describe how the application's components are organized and interact with each other.
+	* Yes, while monolithic and microservices architectures primarily pertain to the code-level organization and deployment of an application, 2-tier, 3-tier, and N-tier architectures are higher-level architectural patterns that focus on the overall structure and organization of the application's components and layers.
 
 * When two-tier applications are usefull?
 	* Small-scale applications: Two-tier architecture is suitable for small-scale applications with a limited number of users and straightforward business logic. Since there are only two layers—the client layer and the server layer—it simplifies the development and maintenance process.
