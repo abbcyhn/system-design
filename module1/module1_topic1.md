@@ -37,7 +37,7 @@
 
 * N-tier application is fault tolerance? 
 	
-	N-tier application architecture is not inherently fault-tolerant, but it can be designed to achieve fault tolerance depending on how it is implemented.
+	* N-tier application architecture is not inherently fault-tolerant, but it can be designed to achieve fault tolerance depending on how it is implemented.
 
 * How to achieve fault tolerance in an N-tier application?
 	
