@@ -81,3 +81,19 @@
 		* Apache Airflow - an open-source platform for orchestrating and managing workflows, including batch jobs.
 		* Jenkins -  is an open-source automation server primarily used for continuous integration and delivery (CI/CD) pipelines. However, it can also be used to schedule and execute batch jobs.
 		* IBM Job Entry Sybsytems (EJS) - provides a batch job processing environment where users can submit, manage, and monitor batch jobsx
+
+## Person2 Questions
+
+* Describe Richardson Maturity Model
+	* Level 0 - Does not make use of any of URI, HTTP Methods and HATEOAS capabilities.
+	* Level 1 - Makes use of URIs, but does not use the HTTP Methods and HATEOAS.
+	* Level 2 - Makes use of URIs and HTTP Methods, but does not use the HATEOAS.
+	* Level 3 - Makes use of all three, i.e. URIs, HTTP and HATEOAS.
+
+* HTTP 1.1 vs HTTP 2
+	* Multiplexing - HTTP/2 allows multiple requests to be sent over the same TCP connection, which means the browser can send multiple requests to the server at the same time.
+	* Server Push - HTTP/2 allows the server to push responses proactively into client caches instead of waiting for a new request for each resource.
+	* Header Compression - HTTP/2 uses HPACK compression to reduce the size of the headers, which reduces the overhead of additional requests and responses.
+	* Binary Protocol - HTTP/2 uses a binary protocol instead of plain text, which makes it easier to parse and more compact.
+	* HTTP/2 is a secure protocol and requires HTTPS.
+	* Frame - HTTP/2 uses frames to send and receive data from the server. Each frame has a specific purpose, for example, HEADERS frame is used to send the header information, DATA frame is used to send the payload, etc.
