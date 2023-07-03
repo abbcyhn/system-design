@@ -57,3 +57,13 @@
 	* Limited resources: In environments with limited resources, such as embedded systems or low-powered devices, a two-tier architecture can be employed to optimize resource utilization. The absence of an intermediate layer reduces the computational overhead on the client-side.
 	* Single-user applications: When the application is designed to be used by a single user at a time, a two-tier architecture can be suitable. For example, a desktop application that operates on a local database without the need for concurrent access by multiple users can be implemented as a two-tier application.
 	* Rapid development: Two-tier architectures are often chosen for rapid application development. The simplicity of the architecture allows developers to focus on core functionality without the added complexity of a multi-tiered infrastructure.
+
+## Person2 Questions
+* What is the difference between a layer and a tier?
+	* A layer is a logical separation of components in an application. A tier is a physical separation of components in an application.
+
+* What is disadvantages of N-tier architecture?
+	* Increased complexity: The complexity of an N-tier architecture is higher than that of a two-tier or three-tier architecture. This can make the development and maintenance process more challenging.
+	* Increased latency: Since the application is distributed across multiple servers, the latency is higher than that of a two-tier or three-tier architecture. This can result in slower response times.
+	* Increased cost: The cost of implementing and maintaining an N-tier architecture is higher than that of a two-tier or three-tier architecture. This is due to the increased number of servers and components involved.
+	* Increased security risks: The increased number of servers and components in an N-tier architecture can increase the security risks. This is because each component is a potential point of failure and can be exploited by malicious actors.
