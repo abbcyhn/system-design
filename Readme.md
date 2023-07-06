@@ -2,9 +2,9 @@
 
 ## Module 1. Web Application & Software Architecture
 
-- [x] [1. Different Tiers in Software Architecture](/module1/module1_topic1.md)
+- [x] [1. Different Tiers in Software Architecture](/module1/topic1/module1_topic1.md)
 
-- [x] [2. Web Architecture](/module1/module1_topic2.md)
+- [x] [2. Web Architecture](/module1/topic2/module1_topic2.md)
 
 - [ ] 3. Scalability
 
