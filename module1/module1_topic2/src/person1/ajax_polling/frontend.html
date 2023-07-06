@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ajax Polling</title>
+</head>
+<body>
+  <p>Server state: <span id="server_state"></span></p>
+
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script>
+        $(document).ready(function() {
+            function poll() {
+                $.ajax({
+                    type: "GET",
+                    url: "http://127.0.0.1:5000/api/state",
+                    dataType: "json",
+                    success: function(data) {
+                        console.log(data.state)
+                        $('#server_state').text(data.state);
+                        if (data.state == 'Ready') {
+                            clearInterval(pollInterval);                   
+                        }
+                    }
+                });
+            };
+
+            pollInterval = setInterval(function(){
+                poll();
+            }, 2000);
+
+            poll();
+        });
+  </script>
+</body>
+</html>
